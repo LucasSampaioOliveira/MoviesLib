@@ -1,0 +1,46 @@
+$primary-color: #f7d354;
+$secondary-color: #b8930c;
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #202020;
+
+    h2,a{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    form{
+        display: flex;
+        gap: .5rem;
+
+        button{
+            background-color: $primary-color;
+            border: 2px solid $primary-color;
+            border-radius: 4px;
+            color: #000;
+            padding: .3rem;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: .4s;
+
+            &:hover{
+                background-color: transparent;
+                color: $primary-color;
+            }
+        }
+    }
+
+    input{
+        padding: .2rem .8rem;
+        border-radius: 4px;
+        border: none;
+    }
+
+}

@@ -1,0 +1,33 @@
+$primary-color: #f7d354;
+$secondary-color: #b8930c;
+
+
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+    transition: .5s;
+
+    &:hover{
+        color: $secondary-color;
+    }
+}
+
+.title{
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
